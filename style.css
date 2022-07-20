@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+  
+}
+
+.main{
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: azure;
+    padding-top: 40px;
+}
+
+
+.universities{
+
+    width: 560px;
+    margin: auto;
+    padding-top: 40px;
+    height: auto;
+    min-height: 320px;
+    background-color: rgb(19, 25, 23);
+    border-radius: 10px;
+}
+
+.card{
+    border:1px solid black;
+    height: 220px;
+    width: 560px;
+    margin: auto;
+    box-shadow: 6px 10px 30px 15px ;
+    background-color: rgb(109, 149, 149);
+    border-radius: 9px;
+    font-weight: 600;
+    color:#f7f7fd;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 22px;
+}
